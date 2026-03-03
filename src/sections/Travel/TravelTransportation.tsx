@@ -1,4 +1,4 @@
-import { Plane, Train, Bus, Car, Bike, Zap, MapPin, DollarSign, Clock } from 'lucide-react';
+import { Plane, Brain as Train, Bus, Car, Bike, Zap, MapPin, DollarSign, Clock } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface TravelTransportationProps {

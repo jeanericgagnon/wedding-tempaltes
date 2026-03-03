@@ -1,4 +1,4 @@
-import { Train, Hotel, MapPin, Zap, Shield, Ticket } from 'lucide-react';
+import { Brain as Train, Hotel, MapPin, Zap, Shield, Ticket } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface TravelCardsProps {

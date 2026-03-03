@@ -1,4 +1,4 @@
-import { MapPin, Plane, Train, Car } from 'lucide-react';
+import { MapPin, Plane, Brain as Train, Car } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface TravelMinimalProps {
