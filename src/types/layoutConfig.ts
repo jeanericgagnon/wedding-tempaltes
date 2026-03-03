@@ -9,7 +9,7 @@ export type SectionType =
   | 'rsvp'
   | 'gallery'
   | 'countdown'
-  | 'footer';
+  | 'footer-cta';
 
 export interface SectionSettings {
   [key: string]: string | number | boolean | undefined;
@@ -45,7 +45,7 @@ export interface Template {
   id: string;
   name: string;
   description: string;
-  defaultThemePreset: ThemePreset;
+  defaultThemePreset: string;
   defaultLayout: LayoutConfig;
   thumbnail?: string;
 }

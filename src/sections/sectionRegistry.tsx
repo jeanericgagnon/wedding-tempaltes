@@ -155,7 +155,7 @@ export const sectionRegistry: Record<string, Record<string, SectionComponent>> =
       description: 'Wedding day countdown timer',
     },
   },
-  footer: {
+  'footer-cta': {
     classic: {
       component: FooterClassic,
       name: 'Classic Footer',
