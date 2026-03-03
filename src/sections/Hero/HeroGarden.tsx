@@ -1,4 +1,4 @@
-import { Flower2 } from 'lucide-react';
+import { Flower } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface HeroGardenProps {
@@ -15,9 +15,9 @@ export default function HeroGarden({ section }: HeroGardenProps) {
       <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg')] bg-cover bg-center opacity-10" />
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex justify-center items-center gap-4 mb-8">
-          <Flower2 className="w-10 h-10 text-emerald-500" />
-          <Flower2 className="w-14 h-14 text-emerald-600" />
-          <Flower2 className="w-10 h-10 text-emerald-500" />
+          <Flower className="w-10 h-10 text-emerald-500" />
+          <Flower className="w-14 h-14 text-emerald-600" />
+          <Flower className="w-10 h-10 text-emerald-500" />
         </div>
         <h1 className="text-7xl md:text-8xl font-serif mb-6 text-emerald-900">
           {bride} <span className="text-emerald-500">&</span> {groom}

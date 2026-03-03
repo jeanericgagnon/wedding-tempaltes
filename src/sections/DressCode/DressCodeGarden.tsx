@@ -1,4 +1,4 @@
-import { Flower2 } from 'lucide-react';
+import { Flower } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface DressCodeGardenProps {
@@ -10,7 +10,7 @@ export default function DressCodeGarden({ section }: DressCodeGardenProps) {
     <section className="py-24 bg-gradient-to-b from-green-50 via-emerald-50 to-teal-50">
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-16">
-          <Flower2 className="w-16 h-16 mx-auto mb-6 text-green-600" />
+          <Flower className="w-16 h-16 mx-auto mb-6 text-green-600" />
           <h2 className="text-5xl font-serif text-gray-900 mb-4">Garden Party Attire</h2>
           <p className="text-xl text-gray-600">Join us in the garden dressed in your spring best</p>
         </div>
