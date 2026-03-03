@@ -13,7 +13,7 @@ export const templateRegistry: Template[] = [
     defaultLayout: {
       sections: [
         { type: 'hero', variant: 'editorial', enabled: true, bindings: {}, settings: {} },
-        { type: 'countdown', variant: 'detai led', enabled: true, bindings: {}, settings: {} },
+        { type: 'countdown', variant: 'detailed', enabled: true, bindings: {}, settings: {} },
         { type: 'story', variant: 'editorial', enabled: true, bindings: {}, settings: {} },
         { type: 'gallery', variant: 'fullwidth', enabled: true, bindings: {}, settings: {} },
         { type: 'venue', variant: 'split', enabled: true, bindings: {}, settings: {} },

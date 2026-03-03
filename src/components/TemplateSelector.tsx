@@ -1,5 +1,6 @@
 import { Template } from '../types/layoutConfig';
 import { getAllTemplates } from '../templates/registry';
+import { Grid3x3 } from 'lucide-react';
 
 interface TemplateSelectorProps {
   selectedTemplateId: string;
@@ -12,7 +13,16 @@ export default function TemplateSelector({ selectedTemplateId, onSelectTemplate 
   return (
     <div className="fixed top-4 right-4 z-50">
       <div className="bg-white rounded-lg shadow-2xl p-6 max-w-md">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">Select Template</h3>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-xl font-bold text-gray-800">Select Template</h3>
+          <a
+            href="/?view=gallery"
+            className="p-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors text-gray-700"
+            title="View all templates"
+          >
+            <Grid3x3 size={18} />
+          </a>
+        </div>
         <div className="space-y-2 max-h-[70vh] overflow-y-auto">
           {templates.map((template: Template) => (
             <button
