@@ -9,7 +9,10 @@ export type SectionType =
   | 'rsvp'
   | 'gallery'
   | 'countdown'
-  | 'footer-cta';
+  | 'footer-cta'
+  | 'wedding-party'
+  | 'dress-code'
+  | 'accommodations';
 
 export interface SectionSettings {
   [key: string]: string | number | boolean | undefined;
