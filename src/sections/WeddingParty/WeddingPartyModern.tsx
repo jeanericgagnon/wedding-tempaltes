@@ -1,4 +1,4 @@
-import { Users2 } from 'lucide-react';
+import { Users as Users2 } from 'lucide-react';
 import { Section } from '../../types/layoutConfig';
 
 interface WeddingPartyModernProps {
