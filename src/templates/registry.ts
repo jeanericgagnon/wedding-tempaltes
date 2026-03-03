@@ -225,7 +225,7 @@ export const templateRegistry: Template[] = [
         { type: 'travel', variant: 'map', enabled: true, bindings: {}, settings: {} },
         { type: 'story', variant: 'timeline', enabled: true, bindings: {}, settings: {} },
         { type: 'venue', variant: 'cards', enabled: true, bindings: {}, settings: {} },
-        { type: 'accommodations', variant: 'showcas e', enabled: true, bindings: {}, settings: {} },
+        { type: 'accommodations', variant: 'showcase', enabled: true, bindings: {}, settings: {} },
         { type: 'schedule', variant: 'itinerary', enabled: true, bindings: {}, settings: {} },
         { type: 'gallery', variant: 'masonry', enabled: true, bindings: {}, settings: {} },
         { type: 'rsvp', variant: 'form', enabled: true, bindings: {}, settings: {} },
